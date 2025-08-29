@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Our Services",
+    "subtitle": "Programs and services designed to create lasting impact"
+  },
+  "programs": {
+    "education": {
+      "title": "Education",
+      "description": "Educational programs for children and adults in rural communities"
+    },
+    "health": {
+      "title": "Health",
+      "description": "Basic medical care and prevention programs"
+    },
+    "development": {
+      "title": "Community Development",
+      "description": "Infrastructure projects and local economic development"
+    }
+  }
+}

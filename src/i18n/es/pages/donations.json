@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Donaciones",
+    "subtitle": "Tu contribución hace posible nuestro trabajo en las comunidades"
+  },
+  "form": {
+    "title": "Hacer una Donación",
+    "amount": "Cantidad",
+    "customAmount": "Cantidad personalizada",
+    "personalInfo": "Información personal",
+    "optionalMessage": "Mensaje opcional",
+    "messagePlaceholder": "Comparte por qué quieres apoyar nuestra causa...",
+    "securityNotice": {
+      "title": "Donación Segura",
+      "description": "Tus datos están protegidos con cifrado SSL y no almacenamos información de tarjetas."
+    },
+    "submitButton": "Donar",
+    "processing": "Procesando..."
+  },
+  "impact": {
+    "title": "Tu Impacto",
+    "education": {
+      "title": "Educación",
+      "description": "Becas escolares y materiales educativos",
+      "amount": "€25",
+      "impact": "Ayuda a un niño por un mes"
+    },
+    "health": {
+      "title": "Salud",
+      "description": "Atención médica básica y medicamentos",
+      "amount": "€50",
+      "impact": "Tratamiento médico completo"
+    },
+    "nutrition": {
+      "title": "Alimentación",
+      "description": "Comidas nutritivas para familias vulnerables",
+      "amount": "€100",
+      "impact": "Alimenta a una familia por una semana"
+    }
+  },
+  "whyDonate": {
+    "title": "¿Por qué donar?",
+    "reasons": [
+      "85% de tu donación va directamente a programas",
+      "Transparencia total en el uso de fondos",
+      "Impacto medible y verificable",
+      "Certificado de donación para deducciones fiscales"
+    ]
+  }
+}

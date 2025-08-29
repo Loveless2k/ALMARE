@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "Transparencia",
+    "subtitle": "Conoce cómo utilizamos tus donaciones y el impacto que generamos"
+  },
+  "financials": {
+    "title": "Finanzas",
+    "totalDonations": "Donaciones Totales",
+    "programExpenses": "Gastos en Programas",
+    "adminCosts": "Costos Administrativos",
+    "downloadReport": "Descargar Informe Anual"
+  },
+  "projects": {
+    "title": "Proyectos Activos",
+    "completed": "Completados",
+    "inProgress": "En Progreso"
+  }
+}

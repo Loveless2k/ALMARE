@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Programas y servicios diseñados para generar un impacto duradero"
+  },
+  "programs": {
+    "education": {
+      "title": "Educación",
+      "description": "Programas educativos para niños y adultos en comunidades rurales"
+    },
+    "health": {
+      "title": "Salud",
+      "description": "Atención médica básica y programas de prevención"
+    },
+    "development": {
+      "title": "Desarrollo Comunitario",
+      "description": "Proyectos de infraestructura y desarrollo económico local"
+    }
+  }
+}

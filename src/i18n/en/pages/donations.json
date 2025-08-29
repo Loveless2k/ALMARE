@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Donations",
+    "subtitle": "Your contribution makes our work in communities possible"
+  },
+  "form": {
+    "title": "Make a Donation",
+    "amount": "Amount",
+    "customAmount": "Custom amount",
+    "personalInfo": "Personal information",
+    "optionalMessage": "Optional message",
+    "messagePlaceholder": "Share why you want to support our cause...",
+    "securityNotice": {
+      "title": "Secure Donation",
+      "description": "Your data is protected with SSL encryption and we don't store card information."
+    },
+    "submitButton": "Donate",
+    "processing": "Processing..."
+  },
+  "impact": {
+    "title": "Your Impact",
+    "education": {
+      "title": "Education",
+      "description": "School scholarships and educational materials",
+      "amount": "€25",
+      "impact": "Help a child for a month"
+    },
+    "health": {
+      "title": "Health",
+      "description": "Basic medical care and medicines",
+      "amount": "€50",
+      "impact": "Complete medical treatment"
+    },
+    "nutrition": {
+      "title": "Nutrition",
+      "description": "Nutritious meals for vulnerable families",
+      "amount": "€100",
+      "impact": "Feed a family for a week"
+    }
+  },
+  "whyDonate": {
+    "title": "Why donate?",
+    "reasons": [
+      "85% of your donation goes directly to programs",
+      "Total transparency in the use of funds",
+      "Measurable and verifiable impact",
+      "Donation certificate for tax deductions"
+    ]
+  }
+}

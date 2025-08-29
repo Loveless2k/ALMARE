@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "Transformando Vidas, Construyendo Esperanza",
+    "subtitle": "Únete a nuestra misión de crear un impacto positivo en las comunidades más vulnerables",
+    "cta": "Conoce Nuestro Trabajo"
+  },
+  "impact": {
+    "title": "Nuestro Impacto",
+    "familiesHelped": "Familias Ayudadas",
+    "projectsCompleted": "Proyectos Completados",
+    "volunteersActive": "Voluntarios Activos",
+    "yearsOfWork": "Años de Trabajo"
+  },
+  "mission": {
+    "title": "Nuestra Misión",
+    "description": "Trabajamos incansablemente para mejorar las condiciones de vida de las comunidades más desfavorecidas, proporcionando acceso a educación, salud y oportunidades de desarrollo sostenible."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "transparency": "Transparencia",
+    "donations": "Donaciones",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "learnMore": "Saber Más",
+    "donate": "Donar",
+    "send": "Enviar",
+    "back": "Volver",
+    "submit": "Enviar",
+    "cancel": "Cancelar"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "required": "Campo requerido",
+    "email": "Correo electrónico",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "message": "Mensaje"
+  },
+  "footer": {
+    "copyright": "© 2025 Almare. Todos los derechos reservados.",
+    "mission": "Transformando vidas, construyendo futuro.",
+    "contact": {
+      "title": "Contacto",
+      "email": "info@almare.org",
+      "phone": "+34 123 456 789"
+    }
+  }
+}

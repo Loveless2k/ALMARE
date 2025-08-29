@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Sobre Almare",
+    "subtitle": "Conoce nuestra historia, valores y el equipo que hace posible el cambio"
+  },
+  "story": {
+    "title": "Nuestra Historia",
+    "description": "Fundada en 2018, Almare nació de la convicción de que todos merecen una oportunidad de prosperar. Comenzamos como un pequeño grupo de voluntarios y hemos crecido hasta convertirnos en una organización reconocida por nuestro trabajo transparente y efectivo."
+  },
+  "values": {
+    "title": "Nuestros Valores",
+    "transparency": "Transparencia",
+    "impact": "Impacto Real",
+    "community": "Comunidad",
+    "sustainability": "Sostenibilidad"
+  },
+  "team": {
+    "title": "Nuestro Equipo"
+  }
+}
