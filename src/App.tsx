@@ -13,6 +13,7 @@ import Donations from './pages/Donations';
 import Blog from './pages/Blog';
 import Post from './pages/Post';
 import Contact from './pages/Contact';
+import AdminLogin from './pages/AdminLogin';
 import NotFound from './pages/NotFound';
 
 // Initialize i18n
@@ -35,6 +36,8 @@ function App() {
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Route>
+            {/* Admin routes outside of MainLayout */}
+            <Route path="/admin/login" element={<AdminLogin />} />
           </Routes>
         </Suspense>
       </Router>

@@ -67,7 +67,7 @@ export default function About() {
       <HeroSection
         title={t('about:hero.title')}
         subtitle={t('about:hero.subtitle')}
-        backgroundImage="https://images.pexels.com/photos/6646971/pexels-photo-6646971.jpeg"
+        backgroundImage="public/sobreAlmare.png"
       />
 
       {/* Our Story */}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Heart, Globe, Menu, X } from 'lucide-react';
+import { Heart, Globe, Menu, X, LogIn, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -32,11 +32,14 @@ export default function MainLayout() {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-normal items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-              <Heart className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-gray-900">Almare</span>
+              <img
+                src="/logo-almare.jpg"
+                alt="Almare Logo"
+                className="h-8"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -45,7 +48,7 @@ export default function MainLayout() {
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                  className={` px-3 text-md font-medium transition-colors hover:text-blue-600 ${
                     isActive(item.href)
                       ? 'text-blue-600 border-b-2 border-blue-600'
                       : 'text-gray-700'
@@ -57,7 +60,7 @@ export default function MainLayout() {
             </nav>
 
             {/* Actions */}
-            <div className="hidden md:flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-4 px-4">
               <button
                 onClick={toggleLanguage}
                 className="flex items-center space-x-1 text-sm text-gray-600 hover:text-gray-900"
@@ -65,6 +68,13 @@ export default function MainLayout() {
                 <Globe className="h-4 w-4" />
                 <span>{i18n.language.toUpperCase()}</span>
               </button>
+              <Link
+                to="/admin/login"
+                className="flex items-center space-x-1 text-sm text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg border border-gray-300 hover:border-gray-400 transition-colors"
+              >
+                <LogIn className="h-4 w-4" />
+                <span>Admin</span>
+              </Link>
               <Link
                 to="/donations"
                 className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
@@ -101,18 +111,28 @@ export default function MainLayout() {
                   {item.label}
                 </Link>
               ))}
-              <div className="flex items-center justify-between pt-4 border-t border-gray-200">
-                <button
-                  onClick={toggleLanguage}
-                  className="flex items-center space-x-1 text-sm text-gray-600 hover:text-gray-900"
-                >
-                  <Globe className="h-4 w-4" />
-                  <span>{i18n.language.toUpperCase()}</span>
-                </button>
+              <div className="pt-4 border-t border-gray-200 space-y-3">
+                <div className="flex items-center justify-between">
+                  <button
+                    onClick={toggleLanguage}
+                    className="flex items-center space-x-1 text-sm text-gray-600 hover:text-gray-900"
+                  >
+                    <Globe className="h-4 w-4" />
+                    <span>{i18n.language.toUpperCase()}</span>
+                  </button>
+                  <Link
+                    to="/admin/login"
+                    onClick={() => setIsMenuOpen(false)}
+                    className="flex items-center space-x-1 text-sm text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg border border-gray-300 hover:border-gray-400 transition-colors"
+                  >
+                    <LogIn className="h-4 w-4" />
+                    <span>Admin</span>
+                  </Link>
+                </div>
                 <Link
                   to="/donations"
                   onClick={() => setIsMenuOpen(false)}
-                  className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+                  className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
                 >
                   {t('buttons.donate')}
                 </Link>
@@ -133,10 +153,13 @@ export default function MainLayout() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Logo & Mission */}
             <div className="col-span-1 md:col-span-2">
-              <div className="flex items-center space-x-2 mb-4">
-                <Heart className="h-8 w-8 text-blue-400" />
-                <span className="text-2xl font-bold">Almare</span>
-              </div>
+              <Link to="/" className="flex items-center space-x-2 mb-4">
+                <img
+                  src="/logo-almare.jpg"
+                  alt="Almare Logo"
+                  className="h-8 w-auto"
+                />
+              </Link>
               <p className="text-gray-300 mb-4">{t('footer.mission')}</p>
             </div>
 
@@ -171,6 +194,21 @@ export default function MainLayout() {
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/34123456789?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20Almare"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 group"
+        aria-label="Contactar por WhatsApp"
+      >
+        <MessageCircle className="h-8 w-8" />
+        <span className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white text-sm px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+          Contáctanos por WhatsApp
+        </span>
+      </a>
+
     </div>
   );
 }

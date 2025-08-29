@@ -100,7 +100,7 @@ export default function Blog() {
       <HeroSection
         title={t('blog:hero.title')}
         subtitle={t('blog:hero.subtitle')}
-        backgroundImage="https://images.pexels.com/photos/6646964/pexels-photo-6646964.jpeg"
+        backgroundImage="public/entrevista.png"
       />
 
       <section className="py-16">

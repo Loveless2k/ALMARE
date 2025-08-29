@@ -1,0 +1,15 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heart icon -->
+  <path d="M20 35c0-8.284-6.716-15-15-15S-10 26.716-10 35c0 15 15 25 15 25s15-10 15-25z" fill="#2563eb" transform="translate(15, 5)"/>
+  <path d="M35 35c0-8.284-6.716-15-15-15s-15 6.716-15 15c0 15 15 25 15 25s15-10 15-25z" fill="#2563eb" transform="translate(15, 5)"/>
+  
+  <!-- Text "Almare" -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">
+    Almare
+  </text>
+  
+  <!-- Tagline -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+    Transformando vidas
+  </text>
+</svg>
