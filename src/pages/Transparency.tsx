@@ -23,8 +23,8 @@ export default function Transparency() {
     {
       icon: DollarSign,
       label: t('transparency:financials.totalDonations'),
-      value: '€245,830',
-      change: '+12%',
+      value: '€0',
+      change: '+0%',
     },
     {
       icon: TrendingUp,
